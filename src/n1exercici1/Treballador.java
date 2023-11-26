@@ -1,9 +1,9 @@
 package n1exercici1;
 
 public class Treballador {
-    String nom;
-    String cognom;
-    float preu_hora;
+    private String nom;
+    private String cognom;
+    private float preu_hora;
 
     public Treballador(String nom, String cognom, float preu_hora) {
         this.nom = nom;
